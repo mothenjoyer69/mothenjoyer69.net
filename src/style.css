@@ -97,9 +97,10 @@
     user-select: none;
   }
   li a {
-    color: var(--link-color) !important;
+    color: crimson !important;
     text-decoration: underline 0.1em rgba(255, 255, 255, 0);
     transition: text-decoration-color 300ms;
+    
   }
   li a:hover {
     text-decoration-color: var(--link-hover-color);
@@ -173,7 +174,7 @@
     color: transparent;
     background: crimson;
     background-clip: text;
-     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.027);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.027);
   }
   footer {
     text-align: center;
@@ -282,8 +283,12 @@
     justify-content: flex-start;
     gap: 1rem;
   }
+  main #blogetitle {
+    color: white;
+    text-align: center;
+  }
   main #posts #blogpostpreview {
-    border-bottom: 0.05rem solid #353535;
+    border-bottom: 0.05rem solid #e4e2e2;
     border-spacing: 1rem;
   }
   main #posts #blogpostpreview ul {
@@ -340,8 +345,8 @@
   }
   
   main .blogpostpreview #Summary {
-  font-family: 'Futura Lt BT';
-  color: var(--p-color);
+  font-family: 'Futura Bk BT';
+  color: white;
   opacity: 90%;
   }
   
