@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html data-theme="">
+    <head>
+        <title> mothsite </title>
+        <link rel="stylesheet" href="../src/style.css"/>
+        <link rel="icon" type="image/x-icon" href="../img/moth.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    </head>
+    <body>
+        <header class="header-bg">
+            <img src="../img/bg.jpg" alt="Header Image" class="header-bg-image" />
+            <nav>
+               <a id="title"> <b> mothenjoyer69 </b></a>
+                <ul id="navmenu">
+                    <li id="notpage"><a href="../index.html"> home </a></li>
+                    <li id="page"><a href="../blog.html"> blog </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="blogpost">
+<h1 id="introducing-the-thinkmoth-expresscard-to-nvme">introducing the
+ThinkMoth ExpressCard to NVMe!</h1>
+<h4 id="moth">25/9/25 - moth</h4>
+<p>i’ve been working on the ThinkMoth for the last 6 months, and i want
+to finally show it off now that i’m getting close to having assembled
+hardware :) i’m intending to sell this board, but i also highly
+encourage DIYing it!</p>
+<p>this board breaks out USB2.0 and 1x PCIe lane via ExpressCard, and
+has an M.2 NVMe socket as well as an SD card socket. you can use it to
+upgrade old ass machines, and the microSD card reader means you will
+always have a device to boot from. if you’re using coreboot or similar,
+you can also just use the native NVMe driver. i’ll do a writeup on
+setting up the adapters when the time comes!</p>
+<p>designing this board has taught me so so much about high(er) speed
+design, and while i’m currently awaiting a prototype PCB run from JLCPCB
+before calling it a success, i’m so thankful to anyone reading this, and
+everyone who let me ask a billion questions on discord!</p>
+<p>kicad pcb renders: <img src="../img/thinkmoth.png"
+alt="front render" /> <img src="../img/thinkmoth-back.png"
+alt="rear render" /> kicad pcb layout: <img
+src="../img/thinkmoth-pcb.png" alt="kicad pcb layout" /></p>
+<h1 id="specs">specs!</h1>
+<ul>
+<li>m.2 2230/2242 NVMe with 1x PCIe lane</li>
+<li>microSD card slot for a boot device</li>
+<li>status LEDs to match your 20 year old business laptop</li>
+<li>support for extra thick/double sided drives!</li>
+</ul>
+<h1 id="why-make-this">why make this?</h1>
+<p>because I wanted to :3 supporting older hardware with open source
+upgrades is a lot of fun!</p>
+<p>also because of the tragic fate of ThinkMods, a similar project.
+shoutout to all the cool people i met because one guy accepted too many
+orders!</p>
+<h1 id="resources">resources</h1>
+<p><a
+href="https://github.com/mothenjoyer69/thinkmoth-expresscard">github
+repo</a></p>
+            </div>
+            <ul id="socials">
+            <li><a href="https://github.com/mothenjoyer69"><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg"></a></li>
+            <li><a href="https://bsky.app/profile/slop.gay"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"></a></li>
+            </ul>
+        </main>
+    <footer>
+        <p> This site is powered by Feiteng D2000 hardware</p>
+        <ul id="buttons">
+            <li><img src="../img/D2000.png" class="d2000"></li>
+        </ul>
+        </footer>
+    </body>
+</html>
