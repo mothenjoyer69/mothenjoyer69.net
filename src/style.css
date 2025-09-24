@@ -296,6 +296,10 @@
     text-align: center;
   }
 
+  main #bloglist {
+    color: white;
+  }
+
   main #posts #blogpostpreview {
     border-bottom: 0.05rem solid #e4e2e2;
     border-spacing: 1rem;
