@@ -45,7 +45,7 @@ html, body, ul, p, h1, h2, h3 {
   padding: 0;
 }
 html {
-  background-color: #2b2a33;
+  background-color: #131516;
   overflow-x: hidden;
   height: 100%;
 }
@@ -55,14 +55,14 @@ body {
   flex-direction: column;
   gap: 2rem;
   overflow-x: hidden;
-  background-color: #181a1b;
+  background-color: #131516;
 }
 li {
   list-style: none;
   user-select: none;
 }
 li a {
-  color: crimson !important;
+  color: #ED365B !important;
   text-decoration: underline 0.1em rgba(255,255,255,0);
   transition: text-decoration-color 300ms;
 }
@@ -78,6 +78,7 @@ main {
   align-items: center;
   gap: 2rem;
   justify-content: flex-start;
+  background-color: #131516;
 }
 main p,
 main a {
@@ -118,7 +119,7 @@ header nav #navmenu a {
   color: white;
 }
 #page a {
-  color: crimson !important;
+  color: #ED365B !important;
 }
 #notpage a {
   color: white !important;
@@ -129,7 +130,7 @@ header #title {
   font-family: 'Futura Bk BT', Futura, sans-serif;
   font-size: 32px;
   font-style: bold;
-  color: crimson;
+  color: #ED365B;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.027);
   display: inline-block;
   padding: 0.3em 1em;
@@ -235,10 +236,11 @@ main #bloglist {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
 #BlogPostTitle a {
-  color: crimson !important;
+  color: #ED365B !important;
   text-decoration: underline;
   font-family: 'Futura Bk BT', Futura, sans-serif;
   font-weight: bold;
@@ -349,7 +351,7 @@ main #posts #blogpostpreview #BlogPostTitle {
 }
 .blogpost h1, .blogpost h2, .blogpost h3 {
   font-family: 'Futura Bk BT', Futura, sans-serif;
-  color: crimson;
+  color: #ED365B;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -363,7 +365,7 @@ main #posts #blogpostpreview #BlogPostTitle {
   font-size: 1.2rem;
 }
 .blogpost h4 {
-  color: crimson;
+  color: #ED365B;
   font-family: 'Futura Bk BT', Futura, sans-serif;
   font-style: italic;
 }
@@ -375,7 +377,7 @@ main #posts #blogpostpreview #BlogPostTitle {
   margin-bottom: 1.2rem;
 }
 .blogpost a {
-  color: crimson;
+  color: #ED365B;
   text-decoration: underline;
   font-family: 'Futura Lt BT', Futura, sans-serif;
 }
