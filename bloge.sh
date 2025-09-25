@@ -9,8 +9,9 @@ if [ "$#" -ne 2 ]; then
 fi
 
 
-# convert md to html and add ids so i can format it later
-MD_HTML=$(pandoc --from markdown --to html "$MD" | sed -E 's/<h([1-6])[^>]*>/<h\1 id="mdheader\1">/g')
+# convert md to html and add ids so i can format it later, remove the dumbass stupid apostrophe
+MD_HTML=$(pandoc --from markdown --to html "$MD" | sed -E 's/<h([1-6])[^>]*>/<h\1 id="mdheader\1">/g' | sed -E "s/’/\\\'/g")
+
 
 # insert it
 awk -v content="$MD_HTML" '
