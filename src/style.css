@@ -339,6 +339,13 @@ main #posts #blogpostpreview #BlogPostTitle {
   background: none;
   position: relative;
   z-index: 2;
+  
+}
+
+.blogpost li {
+  font-family: 'Futura Bk BT', Futura, sans-serif;
+  font-weight: bold;
+  font-style: italic;
 }
 .blogpost h1, .blogpost h2, .blogpost h3 {
   font-family: 'Futura Bk BT', Futura, sans-serif;
